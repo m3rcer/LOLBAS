@@ -4,7 +4,7 @@ Description: LLVM Interpreter and Just-In-Time (JIT) compiler for executing LLVM
 Author: Munaf Shariff
 Created: 2025-11-03
 Commands:
-  - Command: lli.exe "C:\Users\Public\payload.ll"
+  - Command: lli.exe payload.ll
     Description: Executes LLVM Intermediate Representation (.ll) or Bitcode (.bc) using the MCJIT or ORCJIT engine, allowing dynamic runtime code execution. Part of Visual Studio and other external LLVM toolchains used by developers.
     Usecase: Can bypass static detection by interpreting or JIT-compiling obfuscated LLVM IR (converted from multiple language source frontends) at runtime.
     Category: Execute
