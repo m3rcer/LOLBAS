@@ -1,6 +1,6 @@
 ---
 Name: lli.exe
-Description: LLVM Interpreter and Just-In-Time (JIT) compiler for executing LLVM bitcode files (.bc or .ll).
+Description: LLVM Interpreter and Just-In-Time (JIT) compiler for executing LLVM bitcode files (.bc or .ll)
 Author: Munaf Shariff
 Created: 2025-11-03
 Commands:
@@ -12,7 +12,7 @@ Commands:
     MitreID: T1127
     OperatingSystem: Windows
     Tags:
-      - Execute: EXE
+      - Execute: LLVM IR
 Full_Path:
   - Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\Llvm\x64\bin\lli.exe
   - Path: C:\ProgramData\chocolatey\lib\llvm\tools\llvm\bin\lli.exe
@@ -20,8 +20,6 @@ Resources:
   - Link: https://github.com/m3rcer/IRvana/blob/main/Interpreters/lli%20-%20ORC%20JIT/README.md#llvm-lli-tool-part-of-llvm-toolchain
   - Link: https://github.com/m3rcer/IRvana
   - Link: https://rohannk.com/posts/Code-in-the-Middle/
-  - Link: https://llvm.org/docs/CommandGuide/lli.html
-  - Link: https://github.com/llvm/llvm-project
 Acknowledgement:
   - Person: Munaf Shariff
     Handle: '@al3x_m3rcer'
